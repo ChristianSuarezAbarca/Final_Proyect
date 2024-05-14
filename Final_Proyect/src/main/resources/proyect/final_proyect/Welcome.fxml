@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400" prefWidth="600" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyect.final_proyect.WelcomeController">
+   <children>
+      <Label layoutX="262.0" layoutY="94.0" text="Welcome" textAlignment="CENTER" textFill="#c0c700">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="270.0" layoutY="141.0" text="To The" textAlignment="CENTER" textFill="#9c9e00">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="228.0" layoutY="184.0" text="Footwear Oasis" textAlignment="CENTER" textFill="#dfc500">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="208.0" layoutY="273.0" mnemonicParsing="false" text="Login" />
+      <Button layoutX="337.0" layoutY="273.0" mnemonicParsing="false" text="Sign Up" />
+   </children>
+</AnchorPane>
