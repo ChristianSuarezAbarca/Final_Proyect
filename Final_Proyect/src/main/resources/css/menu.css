@@ -1,0 +1,45 @@
+#pane1{
+    -fx-background-image: url("../img/sneaker1.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+#pane2{
+    -fx-background-image: url("../img/sneaker2.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+#pane3{
+    -fx-background-image: url("../img/sneaker3.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+#pane4{
+    -fx-background-image: url("../img/sneaker4.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+#pane5{
+    -fx-background-image: url("../img/sneaker5.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+#pane6{
+    -fx-background-image: url("../img/sneaker6.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+#pane7{
+    -fx-background-image: url("../img/sneaker7.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+#pane8{
+    -fx-background-image: url("../img/sneaker8.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+#pane9{
+    -fx-background-image: url("../img/sneaker9.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}

@@ -1,27 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400" prefWidth="600" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyect.final_proyect.WelcomeController">
+<AnchorPane fx:id="anchorPane" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyect.final_proyect.WelcomeController">
    <children>
-      <Label layoutX="262.0" layoutY="94.0" text="Welcome" textAlignment="CENTER">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="272.0" layoutY="141.0" text="To The" textAlignment="CENTER">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="232.0" layoutY="184.0" text="Footwear Oasis" textAlignment="CENTER">
-         <font>
-            <Font size="20.0" />
-         </font>
-      </Label>
-      <Button layoutX="208.0" layoutY="273.0" mnemonicParsing="false" text="Login" />
-      <Button layoutX="337.0" layoutY="273.0" mnemonicParsing="false" text="Sign Up" />
+      <VBox alignment="CENTER" prefHeight="1080.0" prefWidth="1920.0" spacing="75.0" style="-fx-background-image: url(&quot;resources/img/fondo_welcome.png&quot;);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="Welcome" textAlignment="CENTER" textFill="#c0c700">
+               <font>
+                  <Font name="System Bold" size="50.0" />
+               </font>
+            </Label>
+            <Label text="To The" textAlignment="CENTER" textFill="#9c9e00">
+               <font>
+                  <Font name="System Bold" size="50.0" />
+               </font>
+            </Label>
+            <Label text="Footwear Oasis" textAlignment="CENTER" textFill="#dfc500">
+               <font>
+                  <Font name="System Bold" size="50.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="375.0" />
+         </padding></VBox>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="1080.0" prefWidth="1920.0" spacing="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button minHeight="43.2" minWidth="95.2" mnemonicParsing="false" onMouseClicked="#changeLoginScene" style="-fx-background-color: #f4d132; -fx-border-style: solid; -fx-border-width: 2px; -fx-border-color: #cc9900; -fx-border-radius: 20px; -fx-background-radius: 20px;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="923.0" layoutY="847.0" mnemonicParsing="false" onMouseClicked="#changeRegisterScene" style="-fx-background-color: #f4d132; -fx-border-style: solid; -fx-border-width: 2px; -fx-border-color: #cc9900; -fx-border-radius: 20px; -fx-background-radius: 20px;" text="Sign Up" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="350.0" />
+         </padding>
+      </HBox>
    </children>
 </AnchorPane>
